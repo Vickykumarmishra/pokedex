@@ -1,0 +1,24 @@
+.card {
+    width: 18rem;
+    margin: 1rem;
+    float: left;
+    box-shadow: 1px 1px 2px white, 0 0 25px white, 0 0 5px black;
+    border-bottom: 0.8rem solid red;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+   
+    scale: 1;
+  }
+  
+  .card img {
+    height: 18rem;
+    width: auto;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .card {
+      width: 100%;
+    }
+  }
+  
